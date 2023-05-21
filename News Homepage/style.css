@@ -1,0 +1,24 @@
+.navbar-custom {
+    background-color: white;
+    padding: 1px;
+    margin-bottom: 0.8em;
+    margin-top: auto;
+    height: 8.5em;
+}
+.container-custom {
+    border: 0;
+    height: 190px;
+}
+.img-custom {
+    width: fit-content;
+    height: 21em;
+}
+.text {
+    font-size: 50px;
+    color: black;
+    
+}
+.custom-content1 {
+    margin-left: 1.2em;
+    width: 26.3rem;
+}
