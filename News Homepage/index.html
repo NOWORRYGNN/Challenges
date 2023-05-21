@@ -16,6 +16,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -24,20 +25,97 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <nav class="navbar navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="/docs/5.0/assets/brand/bootstrap-logo.svg"
-            alt=""
-            width="30"
-            height="24"
-            class="d-inline-block align-text-top"
-          />
-          Bootstrap
-        </a>
+
+    <!--Header/Navigation-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container-fluid sticky-top">
+          <a class="navbar-brand" href="#">
+            <img src="assets/2seeulogo01.svg" alt="" style="width: 150px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">New</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Popular</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Trending</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Content-->
+    <div class="container container-custom">
+      <div class="row">
+        <div class="col-8">
+          <div class="row">
+            <div class="col">
+              <a>
+                <img
+                  src="assets/banner.jpg"
+                  class="img-custom img-fluid text-center rounded"
+                  alt="banner"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 text">
+              <p class="text">
+                The Big <br />
+                Impact of<br />
+                Climate Changes?
+              </p>
+            </div>
+            <div class="col-6">content</div>
+          </div>
+        </div>
+        <div class="col-4 h-200 bg-dark custom-content1">
+          <p>New</p>
+          <div class="row">content1</div>
+          <div class="row">content2</div>
+          <div class="row">content3</div>
+        </div>
       </div>
-    </nav>
+      <div class="row">
+        <div class="col">
+          <div class="col">Img1</div>
+          <div class="col">content1</div>
+        </div>
+        <div class="col">
+          <div class="col">img2</div>
+          <div class="col">content2</div>
+        </div>
+        <div class="col">
+          <div class="col">img3</div>
+          <div class="col">content3</div>
+        </div>
+      </div>
+    </div>
+
+    <!--JS Script-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
