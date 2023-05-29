@@ -7,26 +7,32 @@
     height: 8.5em;
 }
 .container-custom {
-    border: 0;
-    height: 190px;
+    height: auto;
 }
 .img-custom {
-    width: fit-content;
-    height: 21em;
+    overflow: hidden;
+    height: 50%;
+    padding-right: 1%;   
 }
 .text {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
     color: black;
-    
 }
 .custom-content1 {
-    margin-left: 1.2em;
-    width: 23.3rem;
+    background-color: black;
+    max-width: 31%;
+    max-height: 80%;
+    margin-bottom: 10%;
 }
 .custom-content2 {
+    overflow: hidden;
     height: 80%;
+    max-width: 100%;
 }
-/*.borderA {
+borderA {
     border: 1px solid black;
-}*/
+}
+@media screen {
+    
+}
